@@ -1,0 +1,14 @@
+{
+  "owserver": {
+    "host": "<hostname of owserver>"
+  },
+  "poll": 2000,
+  "devices": [
+    {
+      "address": "<onewire-address",
+      "webhook": {
+        "url": "<url-of-webhook-to trigger-when-presence-changes>"
+      }
+    }
+  ]
+}
